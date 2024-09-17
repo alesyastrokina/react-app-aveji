@@ -1,6 +1,5 @@
 .about-container  {
     display: flex;
-    align-items: center;
     gap: 0 60px;
     max-height: 700px;
     margin-top: 60px;
@@ -10,14 +9,25 @@
     align-items: center;
     gap: 0 60px;
     max-height: 700px;
-    margin-top: 60px;
     color: #212529;
 }
 
+.content-row {
+  max-width: 1300px;
+  padding: 0 70px;
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.content-row--spaced {
+  margin-bottom: 100px;
+}
+
 .content-column-title {
-    max-width: 30%;
+    min-width: 30%;
     color: #212529;
-    margin-top: 2px;
     margin-bottom: 15%;
 }
 
@@ -25,5 +35,4 @@
     max-width: 70%;
     color: #212529;
 }
-
 

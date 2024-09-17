@@ -1,0 +1,15 @@
+.step-item {
+    display: flex;
+    color: #212529;
+    width: 678px;
+    height: 146px;
+    border-bottom: 1px;
+    border-color: #000000;
+    border-bottom-style: solid;
+    margin-top: 30px;
+}
+
+.step-item__title {
+    min-width: 300px;
+    padding-right: 24px;
+}
