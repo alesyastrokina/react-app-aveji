@@ -1,0 +1,29 @@
+.about-container  {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+    max-height: 700px;
+    margin-top: 60px;
+}
+
+.about-content  {
+    align-items: center;
+    gap: 0 60px;
+    max-height: 700px;
+    margin-top: 60px;
+    color: #212529;
+}
+
+.content-column-title {
+    max-width: 30%;
+    color: #212529;
+    margin-top: 2px;
+    margin-bottom: 15%;
+}
+
+.content-column-details {
+    max-width: 70%;
+    color: #212529;
+}
+
+
