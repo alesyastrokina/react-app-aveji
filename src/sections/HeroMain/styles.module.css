@@ -1,0 +1,54 @@
+.hero-main  {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+    max-height: 700px;
+    margin-top: 60px;
+}
+
+.hero-main__image {
+    max-width: 678px;
+}
+
+.hero-main__image-small {
+    max-width: 329px;
+    margin-top: 100px;
+}
+
+.hero-main__header {
+    width: 100%;
+}
+
+.hero-main__details {
+    top: inherit;
+    color: #212529;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 400px;
+    margin-bottom: 0;
+}
+
+.hero-main__header-title {
+    display: flex;
+    color: #212529;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86.4px;
+    margin-bottom: 70px;
+}
+
+.hero-main__header-link {
+    width: 164px;
+}
+
+.hero-main__title--higlighed {
+    display: inline-block;
+    position: relative;
+}
+
+.hero-main__title--strong {
+    font-weight: 700;
+    font-size: 5rem;
+}
+

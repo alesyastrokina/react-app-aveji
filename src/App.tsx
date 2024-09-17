@@ -1,4 +1,5 @@
 import { Header, PageBlock } from "./components"
+import { HeroMain } from "./sections"
 
 export const App = () => {
   return (
@@ -6,8 +7,8 @@ export const App = () => {
       <PageBlock className="site-header" tagName="header">
         <Header/>
       </PageBlock>
-
       <main>
+        <HeroMain />
       </main>
     </div>
   )

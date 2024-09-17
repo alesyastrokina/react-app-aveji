@@ -1,0 +1,2 @@
+export { HeroMain } from './HeroMain';
+
