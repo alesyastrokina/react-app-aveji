@@ -1,4 +1,4 @@
-import { Header, PageBlock } from "./components"
+import { Header, Footer, PageBlock } from "./components"
 import { HeroMain, About, Steps, Projects } from "./sections"
 
 export const App = () => {
@@ -13,6 +13,9 @@ export const App = () => {
         <Steps />
         <Projects />
       </main>
+      <PageBlock className="site-footer" tagName="footer">
+        <Footer/>
+      </PageBlock>
     </div>
   )
 }

@@ -1,1 +1,1 @@
-export { Header, PageBlock } from './layout'
+export { Header, Footer, PageBlock } from './layout'

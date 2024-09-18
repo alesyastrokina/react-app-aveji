@@ -1,0 +1,12 @@
+.site-footer {
+  margin-top: auto;
+  color: #212529;
+}
+
+.site-footer-row {
+  display: flex;
+  flex-direction: rtl;
+  justify-content:space-between;
+  width: 100%;
+  color: #212529;
+}
