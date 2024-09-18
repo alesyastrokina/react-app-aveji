@@ -1,5 +1,5 @@
 import { Header, PageBlock } from "./components"
-import { HeroMain, About, Steps } from "./sections"
+import { HeroMain, About, Steps, Projects } from "./sections"
 
 export const App = () => {
   return (
@@ -11,6 +11,7 @@ export const App = () => {
         <HeroMain />
         <About />
         <Steps />
+        <Projects />
       </main>
     </div>
   )
