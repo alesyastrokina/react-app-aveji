@@ -1,5 +1,5 @@
 import { Header, Footer, PageBlock } from "./components"
-import { HeroMain, About, Steps, Projects } from "./sections"
+import { HeroMain, About, Steps, Projects, Form } from "./sections"
 
 export const App = () => {
   return (
@@ -12,6 +12,7 @@ export const App = () => {
         <About />
         <Steps />
         <Projects />
+        <Form />
       </main>
       <PageBlock className="site-footer" tagName="footer">
         <Footer/>
