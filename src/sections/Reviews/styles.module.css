@@ -1,0 +1,37 @@
+.reviews-container  {
+    display: block;
+    color: #212529;
+}
+
+.reviews__list  {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    gap: 0 30px;
+}
+
+.review__card {
+    color: #000;
+    background: #fff;
+    border: 1px;
+    border-color: #000000;
+    border-radius: 0;
+    border-style: solid;
+    padding: 15px;
+    max-width: 342px;
+    text-align: center;
+}
+
+.content-row {
+  max-width: 1300px;
+  padding: 0 70px;
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.content-row--spaced {
+  margin-bottom: 100px;
+}
+
